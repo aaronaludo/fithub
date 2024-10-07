@@ -17,7 +17,7 @@
                 <div id="header-logo">
                     <div class="d-flex justify-content-center align-items-center h-100 w-100">
                         {{-- <img src="assets/images/logo-with-text.png" alt="Mobvex"/> --}}
-                        <h5 class="fw-bolder text-primary m-0">Trisecure</h5>
+                        <h5 class="fw-bolder text-primary m-0">Fithub</h5>
                     </div>
                 </div>
                 <a href="#" id="button-menu"><i class="fa-solid fa-bars"></i></a>

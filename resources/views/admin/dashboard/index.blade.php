@@ -45,48 +45,39 @@
                 <div class="box">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h5>Latest Ride Histories</h5>
+                            <h5>Latest Gym Members</h5>
                             <div class="table-responsive">
                                 <table class="table table-hover">
                                     <thead class="table-light">
                                         <th>ID</th>
-                                        <th>Passenger Name</th>
-                                        <th>Driver Name</th>
-                                        <th>Date</th>
+                                        <th>Name</th>
+                                        <th>Type</th>
+                                        <th>Contact Number</th>
+                                        <th>Status</th>
                                         <th>Actions</th>
                                     </thead>
                                     <tbody>
-                                        <!-- Static rows -->
                                         <tr>
                                             <td>1</td>
                                             <td>John Doe</td>
-                                            <td>Jane Smith</td>
-                                            <td>01/01/2024</td>
+                                            <td>Admin</td>
+                                            <td>+123456789</td>
+                                            <td>Active</td>
                                             <td>
                                                 <div class="d-flex">
-                                                    <div class="action-button"><a href="#" title="View"><i class="fa-solid fa-eye"></i></a></div> <!-- Removed dynamic route -->
+                                                    <div class="action-button"><a href="#" title="View"><i class="fa-solid fa-eye"></i></a></div>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>Michael Brown</td>
-                                            <td>Lisa White</td>
-                                            <td>01/02/2024</td>
+                                            <td>Jane Smith</td>
+                                            <td>Manager</td>
+                                            <td>+987654321</td>
+                                            <td>Inactive</td>
                                             <td>
                                                 <div class="d-flex">
-                                                    <div class="action-button"><a href="#" title="View"><i class="fa-solid fa-eye"></i></a></div> <!-- Removed dynamic route -->
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Emily Clark</td>
-                                            <td>David Johnson</td>
-                                            <td>01/03/2024</td>
-                                            <td>
-                                                <div class="d-flex">
-                                                    <div class="action-button"><a href="#" title="View"><i class="fa-solid fa-eye"></i></a></div> <!-- Removed dynamic route -->
+                                                    <div class="action-button"><a href="#" title="View"><i class="fa-solid fa-eye"></i></a></div>
                                                 </div>
                                             </td>
                                         </tr>

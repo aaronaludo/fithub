@@ -26,7 +26,7 @@
               class="d-flex justify-content-center align-items-center h-100 w-100"
             >
               {{-- <img src="{{ asset('assets/images/logo-with-text.png') }}" alt="Mobvex" /> --}}
-              <h5 class="fw-bolder text-primary m-0">Trisecure</h5>
+              <h5 class="fw-bolder text-primary m-0">Fithub</h5>
             </div>
           </div>
         </div>
