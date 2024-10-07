@@ -31,6 +31,8 @@ use App\Http\Controllers\Admin\New\GymMemberAttendanceController as GymMemberAtt
 use App\Http\Controllers\Admin\New\OnlineRegistrationController as OnlineRegistration;
 use App\Http\Controllers\Admin\New\ReportController as Report;
 use App\Http\Controllers\Admin\New\StaffAccountManagementController as StaffAccountManagement;
+use App\Http\Controllers\Admin\New\ScheduleController as Schedule;
+use App\Http\Controllers\Admin\New\MemberDataController as MemberData;
 
 Route::get('/', function () {
     return redirect('/admin/login');
@@ -100,7 +102,11 @@ Route::middleware(['auth:admin'])->group(function () {
     Route::get('/admin/dashboard', [Dashboard::class, 'index'])->name('admin.dashboard.index');
     
     Route::get('/admin/feedbacks', [Feedback::class, 'index'])->name('admin.feedbacks.index');
+
     Route::get('/admin/gym-management', [GymManagement::class, 'index'])->name('admin.gym-management.index');
+    Route::get('/admin/schedule', [Schedule::class, 'index'])->name('admin.gym-management.schedule');
+    Route::get('/admin/members', [MemberData::class, 'index'])->name('admin.gym-management.members');
+
     Route::get('/admin/gym-member-attendances', [GymMemberAttendance::class, 'index'])->name('admin.gym-member-attendances.index');
     Route::get('/admin/online-registrations', [OnlineRegistration::class, 'index'])->name('admin.online-registrations.index');
     Route::get('/admin/reports', [Report::class, 'index'])->name('admin.reports.index');

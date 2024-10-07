@@ -58,10 +58,16 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('admin.gym-management.index') }}" class="{{ request()->routeIs('admin.gym-management.index') ? 'active' : '' }}">
+                    <a class="collapsed {{ Request::route()->getName() === 'admin.gym-management.index' || Request::route()->getName() === 'admin.gym-management.schedule' || Request::route()->getName() === 'admin.gym-management.members' ? 'active' : '' }}" data-bs-toggle="collapse" href="#gym-management-menu" role="button" aria-expanded="{{ Request::route()->getName() === 'admin.gym-management.index' || Request::route()->getName() === 'admin.gym-management.schedule' || Request::route()->getName() === 'admin.gym-management.members' ? 'true' : 'false' }}" aria-controls="gym-management-menu">
                         <i class="fa-solid fa-dumbbell"></i> Gym Management
                     </a>
+                    <ul id="gym-management-menu" class="collapse {{ Request::route()->getName() === 'admin.gym-management.index' || Request::route()->getName() === 'admin.gym-management.schedule' || Request::route()->getName() === 'admin.gym-management.members' ? 'show' : '' }}">
+                        <li><a href="{{ route('admin.gym-management.index') }}" class="{{ Request::route()->getName() === 'admin.gym-management.index' ? 'active' : '' }}">Overview</a></li>
+                        <li><a href="{{ route('admin.gym-management.schedule') }}" class="{{ Request::route()->getName() === 'admin.gym-management.schedule' ? 'active' : '' }}">Schedules</a></li>
+                        <li><a href="{{ route('admin.gym-management.members') }}" class="{{ Request::route()->getName() === 'admin.gym-management.members' ? 'active' : '' }}">Members Data</a></li>
+                    </ul>
                 </li>
+                                           
                 <li>
                     <a href="{{ route('admin.staff-account-management.index') }}" class="{{ request()->routeIs('admin.staff-account-management.index') ? 'active' : '' }}">
                         <i class="fa-solid fa-users"></i> Staff Account Management
