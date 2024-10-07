@@ -26,7 +26,7 @@
               class="d-flex justify-content-center align-items-center h-100 w-100"
             >
               {{-- <img src="{{ asset('assets/images/logo-with-text.png') }}" alt="Mobvex" /> --}}
-              <h5 class="fw-bolder text-primary m-0">Trisecure</h5>
+              <h5 class="m-0" style="color: #3f1214 !important;font-weight: 1000;">Trisecure</h5>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
                     @error('password') <!-- Display validation error for password -->
                     <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
-                    <button type="submit" class="btn btn-primary w-100">
+                    <button type="submit" class="btn btn-danger w-100">
                       Login
                     </button>
                   </form>

@@ -49,7 +49,7 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center mt-5 mb-4">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-danger">Submit</button>
                                 </div>
                             </form>
                         </div>

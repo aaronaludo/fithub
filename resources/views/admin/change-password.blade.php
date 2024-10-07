@@ -54,7 +54,7 @@
                                 </div>
 
                                 <div class="d-flex justify-content-center mt-5 mb-4">
-                                    <button class="btn btn-primary" type="submit">Change Password</button>
+                                    <button class="btn btn-danger" type="submit">Change Password</button>
                                 </div>
                             </form>
                         </div>

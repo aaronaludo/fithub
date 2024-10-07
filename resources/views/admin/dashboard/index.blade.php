@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-lg-4">
                         <div class="tile tile-primary">
-                            <div class="tile-heading">Total Members</div>
+                            <div class="tile-heading">Total Gym Members</div>
                             <div class="tile-body">
                                 <i class="fa-regular fa-file"></i>
                                 <h2 class="float-end">100</h2> <!-- Static Value -->
