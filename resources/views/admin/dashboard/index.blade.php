@@ -6,7 +6,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-between">
-                <div><h2 class="title">Dashboard - for test</h2></div>
+                <div><h2 class="title">Dashboard</h2></div>
             </div>
             <div class="col-lg-12">
                 <div class="row">
