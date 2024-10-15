@@ -13,7 +13,7 @@ class DashboardController extends Controller
     {
         $gym_members = User::where('role_id', 3)->count();
         $staffs = User::where('role_id', 2)->count();
-        $feedbacks = Feedback::all();
+        $feedbacks = Feedback::count();
 
         return view('admin.dashboard.index', ['gym_members' => $gym_members, 'staffs' => $staffs, 'feedbacks' => $feedbacks]);
     }

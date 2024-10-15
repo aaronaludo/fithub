@@ -17,10 +17,10 @@ class RolesTableSeeder extends Seeder
             'name' => 'Admin',
         ]);
         Role::create([
-            'name' => 'Driver',
+            'name' => 'Staff',
         ]);
         Role::create([
-            'name' => 'Passenger',
+            'name' => 'User',
         ]);
         Role::create([
             'name' => 'Super Admin',

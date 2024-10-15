@@ -15,29 +15,29 @@
                             <div class="tile-heading">Total Gym Members</div>
                             <div class="tile-body">
                                 <i class="fa-regular fa-user"></i>
-                                <h2 class="float-end">350</h2> <!-- Static Value -->
+                                <h2 class="float-end">{{ $gym_members }}</h2>
                             </div>
-                            <div class="tile-footer"><a href="#">View more...</a></div> <!-- Static link -->
+                            <div class="tile-footer"><a href="#">View more...</a></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="tile tile-primary">
-                            <div class="tile-heading">Active Memberships</div>
+                            <div class="tile-heading">Total Staffs</div>
                             <div class="tile-body">
                                 <i class="fa-regular fa-heart"></i>
-                                <h2 class="float-end">280</h2> <!-- Static Value -->
+                                <h2 class="float-end">{{ $staffs }}</h2>
                             </div>
-                            <div class="tile-footer"><a href="#">View more...</a></div> <!-- Static link -->
+                            <div class="tile-footer"><a href="#">View more...</a></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="tile tile-primary">
-                            <div class="tile-heading">New Sign-ups This Month</div>
+                            <div class="tile-heading">Total Feedbacks</div>
                             <div class="tile-body">
                                 <i class="fa-regular fa-user-plus"></i>
-                                <h2 class="float-end">45</h2> <!-- Static Value -->
+                                <h2 class="float-end">{{ $feedbacks }}</h2>
                             </div>
-                            <div class="tile-footer"><a href="#">View more...</a></div> <!-- Static link -->
+                            <div class="tile-footer"><a href="#">View more...</a></div>
                         </div>
                     </div>
                 </div>
